@@ -1,0 +1,73 @@
+@media screen and (max-width: 700px)
+{
+    header .container
+    {
+        display: flex;
+    }
+
+    .botoes .botao
+    {
+        margin-top: 7px;
+        width: 300px;
+    }
+
+    .dropdown
+    {
+        display: block;
+    }
+
+    .nav
+    {
+        display: none;
+    }
+
+    .info_container
+    {
+        margin: 2vw 3vw;
+        width: 94vw;
+    }
+
+    .titulo_info
+    {
+        font-size: 40px;
+    }
+
+    #btn_info
+    {
+        font-size: 1.5vmax;
+    }
+
+    #btn_info i 
+    {
+        font-size: 2vmax;
+    }
+}
+
+@media screen and (min-width: 701px)
+{
+    .dropdown
+    {
+        display: none;
+    }
+
+    .nav
+    {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) 
+{
+    .descricao
+    {
+        width: 50%;
+    }  
+}
+
+@media screen and (max-width: 500px) 
+{
+    .info_det_varios
+    {
+        flex-direction: column;  
+    }  
+}

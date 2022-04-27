@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/info.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    
+    <title>Início - Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"></h2>
+            <div class="dropdown">
+                <button class="dropbtn">Navegar <i class="fas fa-sort-down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Minha lista</a>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Minha lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">FOR LIFE</h3>
+                <p class="descricao">
+                    <b>Assista à temporada 2 agora</b> <br> Esta série dramática criada por Hank Steinberg conta com Nicholas Pinnock no elenco e é inspirada em uma história real.
+                </p>
+            </div>
+            <div class="botoes">
+                <button onclick="watch()" role="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    Assistir
+                 </button>
+                 <button onclick="get_info()" role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    Mais Informações
+                 </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <h4 class="titulo">Comédias hollywoodianas</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class=".box-filme" src="img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4789c58c67.js" crossorigin="anonymous"></script>
+
+    <!-- OWL JS -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/watch.js"></script>
+    <script src="js/info.js"></script>
+
+</body>
+</html>
